@@ -1,0 +1,20 @@
+﻿@model FinalProje.Models.ConfirmUser
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_homeLayout.cshtml";
+}
+
+<h1>Email Confirmation Form</h1>
+<form method="post" asp-action="Index" asp-controller="ConfirmMail">
+    <div class="form-group">
+        <h2>Your Email Address in the Confirmation Form: @ViewBag.Email</h2>
+        <input class="form-control" type="text" value="@ViewBag.Email" asp-for="Mail" />
+    </div>
+    <div class="form-group">
+        <h2>Enter Your Confirmation Code</h2>
+        <input type="text" class="form-control" asp-for="ConfirmCode" />
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary" type="submit">Confirm Account</button>
+    </div>
+</form>
