@@ -1,8 +1,7 @@
 # FoodApp (ASP.NET Core)
 
 FoodApp is a feature-rich web application built using **ASP.NET Core** that enables users to browse menus, place food orders, and manage their selections through a clean, user-friendly interface.  
-This project demonstrates skills in backend-frontend integration, real-time updates, role-based features, and performance optimization. Ideal for showcasing full-stack .NET development capabilities.
-
+This project demonstrates skills in backend-frontend integration, real-time updates, role-based features, and performance optimization. 
 ---
 
 ## Features
