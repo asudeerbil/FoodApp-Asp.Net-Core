@@ -51,6 +51,6 @@ This project demonstrates skills in backend-frontend integration, real-time upda
 - **Frontend Libraries / Tools** — HTML, CSS, JavaScript (possibly Vue.js or other if used) + CSS framework (e.g., Tailwind or Bootstrap)  
 - **Asset Management** — npm, bundler or build tool (e.g., Vite or Webpack)  
 - **Version Control & DevOps** — Git & GitHub, Postman for API tests, maybe logging / error tracking  
-- **Optional Enhancements** — Real-time features, Admin dashboard, Role-based management  
+
 
 ---
